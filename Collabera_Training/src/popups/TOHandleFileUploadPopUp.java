@@ -30,9 +30,11 @@ public class TOHandleFileUploadPopUp {
 //		}catch(NoSuchElementException e) {
 //
 //		}
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//div[@class='uploadBtn']")).sendKeys("D:\\WebTechnology\\TestYantra - HTML5 pdfs.pdf");
-//		Runtime.getRuntime().exec("./autoIt/fileUpload.exe");
+//		Thread.sleep(2D:\WebTechnology\TestYantra - HTML5 pdfs.pdf000);
+		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\india\\Downloads\\arpitha TY-converted.pdf");
+		Runtime.getRuntime().exec("./autoIt/fileUpload.exe");
+		Thread.sleep(3000);
+		driver.quit();
 	}
 
 }
